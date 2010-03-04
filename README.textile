@@ -1,0 +1,21 @@
+
+h1. Hacker News reader for emacs
+
+Attempt to create a native HN reader for emacs.
+Code can be infinitely improved.
+It currently only displays HN news headlines from the homepage.
+
+<pre>
+;; Add to load path...
+(global-set-key (kbd "<S-f2>")  hacker-news)
+</pre>
+
+h2. To Do
+
+* item?123123 links are broken
+* Add style
+* Display comments, make links pretty.
+
+
+
+
